@@ -40,3 +40,4 @@
     "Revert buffer without confirmation."
     (interactive)
     (revert-buffer :ignore-auto :noconfirm))
+(global-linum-mode t) ;; enable line numbers globally
