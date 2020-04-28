@@ -50,8 +50,8 @@ echo "Finished copying to SD card"
 # ctrl_interface=/var/run/wpa_supplicant
 
 # network={
-#  ssid="yair"
-#  psk="yairdidi"
+#  ssid="network"
+#  psk="password"
 # }
 # ' >>  /media/yairi/boot/wpa_supplicant.conf
 # echo "WiFi configured"
