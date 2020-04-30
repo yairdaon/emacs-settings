@@ -1,0 +1,3 @@
+#!/bin/bash
+rsync -arv --dry-run /home/yairi/Pictures/ /media/yairi/Yair/Yair\'s\ Goodies/Pictures/
+#rsync -arv /home/yairi/Pictures/ /media/yairi/Yair/Yair\'s\ Goodies/Pictures/
