@@ -1,0 +1,1 @@
+watch -n 0.1 "latexmk -pdf --silent paper"
