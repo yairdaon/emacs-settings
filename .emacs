@@ -41,3 +41,8 @@
     (interactive)
     (revert-buffer :ignore-auto :noconfirm))
 (global-linum-mode t) ;; enable line numbers globally
+
+;; Confirm C-x C-c
+(add-hook 'kill-emacs-query-functions
+          (lambda () (y-or-n-p "Do you really want to exit Emacs? "))
+          'append)
